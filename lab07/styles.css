@@ -1,8 +1,19 @@
 body {
     color: #fcdada;
-    background-color: #5c969e;
+    background-color: #3d7ea6;
 }
 
 a:link {
     color: #ffa5a5;
+}
+
+nav a:hover {
+    background-color: #b2deec;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+    color: #fadcaa;
+    background-color: #5c969e;
 }
