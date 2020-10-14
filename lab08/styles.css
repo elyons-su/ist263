@@ -24,3 +24,11 @@ nav {
     margin-bottom: 30px;
     background-color: #5c969e;
 }
+
+.quote {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
