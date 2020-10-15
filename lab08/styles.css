@@ -33,6 +33,10 @@ nav {
     float: right;
 }
 
+.footer {
+    bottom: 0px;
+}
+
 .clear {
     clear: both;
 }
@@ -41,3 +45,44 @@ nav {
     float: right;
     margin-left: 30px;
 }
+
+.contact section {
+    padding: 10px;
+}
+
+.sec1, .sec2 {
+    background-color: #cce5ff; 
+    border-radius: 1em;
+    display: flex;
+    margin: 10px;
+}
+
+.address {
+    order: 1;
+    float: left;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.links {
+    order: 2;
+    margin: 10px;
+    padding: 20px;
+    flex: 1;
+}
+
+.forms {
+    flex: 1;
+    order: 1;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+
+.map {
+    flex: 1;
+    order: 2;
+    padding: 20px;
+    margin: 10px;
+} 
