@@ -69,6 +69,11 @@ nav {
     padding: 20px;
 }
 
+.sec2 {
+    flex-wrap: wrap;
+}
+
+
 .forms {
     flex: 1;
     order: 1;
