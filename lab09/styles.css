@@ -1,0 +1,85 @@
+body {
+    color: #fcdada;
+    background-color: #3d7ea6;
+}
+
+a:link {
+    color: #ffa5a5;
+}
+
+h1, h2 {
+    color: #fcdada;
+}
+
+nav a:hover {
+    background-color: #b2deec;
+}
+
+nav a {
+    color: #ffa5a5;
+}
+
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #5c969e;
+}
+
+.copyright {
+    float: left;
+}
+
+.quote {
+    float: right;
+}
+
+.footer {
+    bottom: 0px;
+}
+
+.clear {
+    clear: both;
+}
+
+.img1 {
+    float: right;
+    margin-left: 30px;
+}
+
+.contact section {
+    display: flex;
+    padding: 10px;
+}
+
+.sec1, .sec2 {
+    background-color: #cce5ff; 
+    border-radius: 1em;
+    margin: 10px;
+}
+
+.sec1 .address {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+}
+
+.sec1 .links {
+    float: left;
+    margin: 10px;
+    padding: 20px;
+}
+
+.forms {
+    flex: 1;
+    order: 1;
+    margin: 10px;
+    padding: 20px;
+    float: left;
+}
+
+.map {
+    flex: 1;
+    order: 2;
+    padding: 20px;
+    margin: 10px;
+}
