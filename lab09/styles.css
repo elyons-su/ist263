@@ -91,3 +91,12 @@ nav {
 .img1 {
     max-width: 100%;
 }
+
+@media only screen and (max-width: 600px) {
+    nav a:link {
+        display: block;
+    }
+    span {
+        display: none;
+    }
+}
