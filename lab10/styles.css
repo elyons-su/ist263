@@ -2,96 +2,117 @@ body {
     color: #fcdada;
     background-color: #3d7ea6;
 }
-
+ 
 a:link {
-    color: #ffa5a5;
+    color: #FFE0E0;
 }
-
+ 
 h1, h2 {
     color: #fcdada;
 }
-
+ 
 nav a:hover {
     background-color: #b2deec;
 }
-
+ 
 nav a {
-    color: #ffa5a5;
+    color: #FFE0E0;
 }
-
+ 
 nav {
     padding: 10px;
     margin-bottom: 30px;
-    background-color: #5c969e;
+    background-color: #416286;
 }
-
+ 
+.table {
+    background-color: #416286;
+}
+ 
 .copyright {
     float: left;
 }
-
+ 
 .quote {
     float: right;
 }
-
+ 
 .footer {
     bottom: 0px;
 }
-
+ 
 .clear {
     clear: both;
 }
-
+ 
 .img1 {
     float: right;
     margin-left: 30px;
+    max-width: 100%;
 }
-
-.contact section {
+ 
+.img2 {
+    max-width: 100%;
+}
+ 
+.contact figure {
     display: flex;
     padding: 10px;
 }
-
+ 
+.contact .sec1 {
+    order: 1;
+    float: top;
+}
+ 
+.contact .sec2 {
+    order: 2;
+    float: bottom;
+}
+ 
 .sec1, .sec2 {
-    background-color: #cce5ff; 
+    background-color: #416286; 
     border-radius: 1em;
     margin: 10px;
 }
-
+ 
 .sec1 .address {
     float: left;
     margin: 10px;
     padding: 20px;
 }
-
+ 
 .sec1 .links {
     float: left;
     margin: 10px;
     padding: 20px;
 }
-
+ 
 .sec2 {
     flex-wrap: wrap;
 }
-
-
+ 
 .forms {
     flex: 1;
     order: 1;
     margin: 10px;
     padding: 20px;
     float: left;
+    background-color: #328282;
+    color: white;
 }
-
+ 
 .map {
     flex: 1;
     order: 2;
     padding: 20px;
     margin: 10px;
 }
-.img1 {
-    max-width: 100%;
+ 
+.text {
+    background-color: #3A647E;
 }
-
+ 
 @media only screen and (max-width: 600px) {
     nav a:link {
         display: block;
