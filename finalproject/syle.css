@@ -1,0 +1,38 @@
+img {
+    max-width: 50%;
+}
+ 
+.img1 {
+    float: left;
+}
+ 
+:not(.aboutMe) {
+    clear: both;
+}
+ 
+body {
+    background-color: #fcff95;
+}
+ 
+h1, h2 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+ 
+nav a:hover {
+    background-color: #d400ff;
+}
+ 
+nav {
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #f1acff;
+}
+ 
+#skip-to-content {
+    position: absolute; 
+    left: -999px;
+}
+ 
+#skip-to-content:focus {
+    position: absolute; left: 10px;
+}
