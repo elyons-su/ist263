@@ -4,9 +4,10 @@ img {
  
 .img1 {
     float: left;
+    margin: 15px;
 }
  
-:not(.aboutMe) {
+.noFloat {
     clear: both;
 }
  
