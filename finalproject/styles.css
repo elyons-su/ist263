@@ -19,7 +19,7 @@ h1, h2 {
         font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-p {
+p, ol, ul {
     font-family: 'Open Sans', sans-serif;
 }
  
