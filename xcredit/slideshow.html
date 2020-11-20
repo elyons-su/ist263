@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Extra Credit Slideshow</title>
+    <script>
+            function Clear () {
+                document.getElementById("dancing1").style.display="none";
+                document.getElementById("dancing2").style.display="none";
+                document.getElementById("dancing3").style.display="none";
+                document.getElementById("dancing4").style.display="none";
+                document.getElementById("dancing5").style.display="none";
+                document.getElementById("text1").style.display="none";
+                document.getElementById("text2").style.display="none";
+                document.getElementById("text3").style.display="none";
+                document.getElementById("text4").style.display="none";
+                document.getElementById("text5").style.display="none";
+            }
+            function Slide1 () {
+                document.getElementById("dancing1").style.display="block";
+                document.getElementById("text1").style.display="block";
+            }
+            function Slide2 () {
+                document.getElementById("dancing2").style.display="block";
+                document.getElementById("text2").style.display="block";
+            }
+            function Slide3 () {
+                document.getElementById("dancing3").style.display="block";
+                document.getElementById("text3").style.display="block";
+            }
+            function Slide4 () {
+                document.getElementById("dancing4").style.display="block";
+                document.getElementById("text4").style.display="block";
+            }
+            function Slide5 () {
+                document.getElementById("dancing5").style.display="block";
+                document.getElementById("text5").style.display="block";
+            }
+    </script>
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif; 
+            background-color: #111111;
+            color: #ffffff;
+        }
+        #slideshow-container {
+            background-color: #000000;
+            width: 1200px;
+            margin: auto; /* margin auto is centering this container */ 
+       
+        }
+        #bigimages {
+            margin-right: 100px; 
+            float: left; 
+            max-width: 50%;
+            transition: all 1s ease-in-out;            
+        }
+        #bigimages:hover{
+            transform: scale(0.8);
+        }
+        #info {
+            padding: 100px;
+            transition-property: font-size;
+            transition-duration: 5s;
+            transition-delay: 1s;
+        }
+        #info:hover {
+            font-size: 30px;
+        }
+        #thumbnails {
+            width: 840px;
+            margin: auto; 
+            padding-top: 20px; 
+            clear: both; 
+            transition: all .2s ease-in-out;
+        }
+        #thumbnails:hover{
+            transform: scale(1.1);
+        }
+        /* ^^ margin auto is centering this container */
+        #dancing1thumb, #dancing2thumb, #dancing3thumb, #dancing4thumb, #dancing5thumb
+        {width: 100px;}
+ 
+        img {
+            max-width: 100%;
+        }
+    </style>
+    <script>
+       
+    </script>
+</head>
+<body onload="Clear(); Slide1();">
+<div id="slideshow-container">
+    <div id="bigimages">
+        <img src="/ist263/images/dancing1.JPG" alt="Me dancing 1" id="dancing1">
+        <img src="/ist263/images/dancing2.JPG" alt="Me dancing 2" id="dancing2">
+        <img src="/ist263/images/dancing3.JPG" alt="Me dancing 3" id="dancing3">
+        <img src="/ist263/images/dancing4.JPG" alt="Me dancing 4" id="dancing4">
+        <img src="/ist263/images/dancing5.JPG" alt="Me dancing 5" id="dancing5">
+    </div>
+    <div id="info">
+        <h1>My Dance Journey</h1>
+        <div id="text1">
+            <h2>Slide 1</h2>
+            <p>I grew up dancing at the same dance studio that my mother attended. It was very special that we had many of the same dance teachers.</p>
+        </div>
+        <div id="text2">
+            <h2>Slide 2</h2>
+            <p>I dreamed of becoming a professional ballerina and auditioned for numerous ballet schools and studied in many different places every summer. I attended the Boston Ballet, Gelsey Kirkland Academy of Ballet, and University of North Carolina School of the Arts.</p>
+        </div>
+        <div id="text3">
+            <h2>Slide 3</h2>
+            <p>For a very long time I thought I would go to college and study ballet. However, my Junior year of High School after a difficult summer of intensive dancing I changed my mind.</p>
+        </div>
+        <div id="text4">
+            <h2>Slide 4</h2>
+            <p>I now am a member of DanceWorks at Syracuse University and dance for fun and to share my passions with friends. I love to perform and the end of the year showcase is always outstanding.</p>
+        </div>
+        <div id="text5">
+            <h2>Slide 5</h2>
+            <p>I will always have a passion for dance. Although it is not a career I wish to pursue, it is a passion I will continue to participate in.</p>
+        </div>
+    <div id="thumbnails">
+        <img src="/ist263/images/dancing1.JPG" alt="Me dancing 1" id="dancing1thumb" onclick="Clear(); Slide1();">
+        <img src="/ist263/images/dancing2.JPG" alt="Me dancing 2" id="dancing2thumb" onclick="Clear(); Slide2();">
+        <img src="/ist263/images/dancing3.JPG" alt="Me dancing 3" id="dancing3thumb" onclick="Clear(); Slide3();">
+        <img src="/ist263/images/dancing4.JPG" alt="Me dancing 4" id="dancing4thumb" onclick="Clear(); Slide4();">
+        <img src="/ist263/images/dancing5.JPG" alt="Me dancing 5" id="dancing5thumb" onclick="Clear(); Slide5();">
+    </div>
+</body>
+</html>
