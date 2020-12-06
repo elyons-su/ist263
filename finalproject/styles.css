@@ -7,8 +7,17 @@ img {
     margin: 15px;
 }
 
-.links a {
+nav a {
+    display: block;
     padding: 10px;
+}
+
+#links {
+    transition: all .2s ease-in-out;
+}
+
+#links:hover{
+    transform: scale(1.1);
 }
  
 .noFloat {
