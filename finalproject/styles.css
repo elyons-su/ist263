@@ -6,6 +6,10 @@ img {
     float: left;
     margin: 15px;
 }
+
+.links a {
+    padding: 10px;
+}
  
 .noFloat {
     clear: both;
